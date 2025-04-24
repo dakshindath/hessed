@@ -1,0 +1,308 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+.sidebanner-logo {
+    position: relative;
+    z-index: 2;
+    width: 279.04px;
+    height: 294.35px;
+    margin-top: 128.09px;
+    margin-left: 79.88px;
+}
+.sidebanner-star {
+    width: 17.72px;
+    height: 24.93px;
+    margin-top: -320.81px;
+    margin-left: 28.7px;
+}
+.blurred-ellipse {
+    position: absolute;
+}
+.sidebanner-cloud1 {
+    width: 119.62px;
+    height: 35.46px;
+    margin-top: -730.64px;
+    margin-left: 289.17px;
+}
+.sidebanner-cloud2{
+    width: 72.28px;
+    height: 21.43px;
+    margin-top: -550.64px;
+    margin-left: 30.85px;
+}
+.sidebanner-wave{
+    width: 150px; 
+    height: 150px; 
+    max-width: 100%; 
+    margin-top: -190.64px;
+    margin-left: 262px;
+
+}
+.sidebanner-children{
+    position: relative;
+    z-index: 1;
+    width: 373.9px; 
+    height: 249.18px; 
+    max-width: 100%; 
+    margin-left: 20px;
+}
+.sidebanner-grass1{
+    position: absolute;
+    width: 104.97px; 
+    height: 138.38px; 
+    max-width: 100%;
+    margin-left: 302px;
+    margin-top: -285px;
+}
+.sidebanner-grass2{
+    position: absolute;
+    width: 104.97px; 
+    height: 138.38px; 
+    max-width: 100%;
+    margin-top: 174px;
+    margin-left: -13px;
+}
+.btnlink{
+    position: relative;
+    width: 200.5px;
+    height: 35px;
+    background-color: #A68ACF;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 169px;
+    /* box-shadow: 8px 8px 8px 8px #ffffff;  */
+}
+.btnlink:hover{
+    background-color: #A68ACF;
+    box-shadow: 0px 0px 0px 0px #ffffff; 
+    transition: all 0.3s ease-in-out;
+}
+.link-text{
+    position: relative;
+     z-index: 1; 
+     font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    padding-right: 4px;
+}
+.sidebanner-link4{
+    position: absolute; 
+    width: 238px;
+    max-width: 100%;
+    height: 77px;
+    max-height: 100%;
+    margin-left: -8px;
+    margin-top: 174px; 
+}
+.btn-globe{
+    position: absolute;
+    width: 18px;
+    height: 18px; 
+    
+}
+.sidebanner-link1{
+    position: absolute; 
+    margin-left: -192px;
+    margin-top: 193px;
+
+}
+.sidebanner-link2{
+    position: absolute; 
+    width: 200px;
+    max-width: 100%;
+    margin-left: -204px;
+    margin-top: 210px; 
+}
+.sidebanner-link3{
+    position: absolute; 
+    width: 201px;
+    max-width: 100%;
+    margin-left: -205px;
+    margin-top: 211px; 
+}
+
+.sidebanner-logout3{
+    position: normal;
+    margin-left: 39px;
+    margin-top: 176px;
+}
+
+.logout{
+        position: relative;
+        width: 100.5px;
+        height: 35px;
+        background-color: #A68ACF;
+        border-radius: 20px;
+        margin-left: 273px;
+        margin-top: -107px;
+        color: #ffffff;
+}
+.logout:hover{
+    background-color: #A68ACF;
+    box-shadow: 0px 0px 0px 0px #ffffff; 
+    transition: all 0.3s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.sidebanner-logout1{
+    position: absolute;
+    z-index: 2;
+    margin-left: -72px;
+    margin-top: -4px;
+}
+.sidebanner-logout2{
+    position: absolute;
+    z-index: 2;
+    margin-left: -86px;
+    margin-top: 11px;
+}
+.sidebanner-logout4{
+    position: absolute;
+    z-index: 2;
+    margin-left: -86px;
+    margin-top: 12px;
+}
+.rectangle1{
+    width: 720px;
+    max-width: 100%;
+    height: 585px;
+    max-height: 100%;
+}
+.rectangle-stars{
+    width: 235.58px;
+    height: 242.87px;
+    margin-top: 128.09px;
+    margin-left: 100px;
+
+}
+.card {
+    background: transparent;
+    padding: 15px;
+    color: white;
+    width: 700px;
+    border: transparent;
+    margin-top: -370px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+  }
+  th, td {
+    text-align: center;
+    padding: 5px 20px;
+    text-align: center;
+    
+  }
+  th {
+    font-size: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  }
+  .left-col {
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .label {
+    font-weight: bold;
+    padding: 8px 0;
+  }
+  small {
+    display: block;
+    margin-top: 4px;
+    font-size: 13.6px;
+    color: #ddd;
+  }
+
+  .scorecard-table {
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .scorecard-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .scorecard-row:last-child {
+    margin-bottom: 0;
+  }
+  
+  .scorecard-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .scorecard-label {
+    flex: 2;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .scorecard-score {
+    flex: 1;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .total-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 700px;
+    margin-left: 40px;
+  }
+  
+  .total-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  .total-cards {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: auto;
+    margin-left: 40px;
+    margin-right: 10px; 
+  }
+  
+  .total-card {
+
+    padding: 5px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .total-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
