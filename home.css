@@ -303,6 +303,450 @@ body {
     align-items: center;
     justify-content: center;
   }
+  /* /* .remark-rectangle{
+    width: 645.13px;
+    max-width: 100%;
+      height: 364.89px;
+      max-height: 100%;
+      border-radius: 27px;
+      margin-left: 14px; 
+  } */
+  .remark-rectangle2{
+    max-width: 92%;
+    max-height: 100%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 15px;
+    border-radius: 27px;
+    box-shadow: 
+    inset 0px 7px 1px 0px #D497B9,   
+    inset -3px 0px 1px 0px #D497B9; 
+
+  }
+
+  .rectangle-spiral{
+    position: absolute;
+    z-index: 1;
+    margin-top: -16px;
+    margin-left: 80px;
+  }
+  .rectangle-child{
+    position:absolute;
+    z-index: 1;
+    margin-top: 130px;
+    margin-left: 600px;
+  }
+  .remarks-containers {
+    border-radius: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+      max-height: 100%;
+  }
+  
+  .remarks-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    text-align: center;
+  }
+  
+  .remark-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 20px;
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: 35px; 
+    margin-bottom: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .remark-card:last-child {
+    margin-bottom: 0;
+  }
+  
+  .remark-content {
+    flex: 1;
+  }
+  
+  .remark-text {
+    font-size: 14px;
+    color: #333333;
+    margin: 0 0 5px 0;
+  }
+  
+  .remark-date {
+    font-size: 12px;
+    color: #999999;
+    margin: 0;
+  }
+  
+
+  .rectangle-studentdetails{
+    max-width: 100%;
+    max-height: 100%; 
+    background: linear-gradient(359.23deg, #BFBFE1 0.68%, #A689CF 99.36%);
+    box-shadow: 
+        0px 2.92px 14.58px 0px #0B0E2159, 
+        5.83px 7.29px 1.46px 0px #B7B3E2 inset, 
+        0px -2.92px 1.46px 0px #9F7CD8 inset; 
+    border-radius: 15px; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.rectangle-studentimg{
+  position: relative;
+  z-index: 1;
+    padding-top: 24px;
+    padding-left: 93px;
+}
+.rectangle-stars2{
+    position: absolute;
+    padding-top: 32px;
+    margin-left: -190px;
+}
+
+.rectangle-studentname{
+   margin: auto;
+   padding-left: 65px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.rectangle-studentname2{
+    margin: auto;
+    padding-left: 125px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+.studentdetails-card {
+  padding: 20px; 
+  padding-top: 80px;
+  padding-left: 350px;
+  padding-bottom: 40px;
+  
+}
+.profile-details {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-label {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  flex: 1;
+  padding-right: 50px;
+}
+
+.detail-value {
+  font-size: 14px;
+  color: #eaeaea;
+  flex: 1;
+  text-align: left;
+}
+
+.school-activity{
+  max-width: 100%;
+  max-height: 100%; 
+  background:#F4E4ED;
+  ;
+  box-shadow: 
+  inset 0px 7px 1px 0px #D497B9,   
+  inset -3px 0px 1px 0px #D497B9; 
+
+  border-radius: 15px; 
+  margin: 20px auto; 
+}
+.school-activity-spiral{
+  margin-left: 120px;
+  margin-top: -15px;
+}
+.school-activity-header{
+  color: #040404;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.card-activity-img {
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: row; /* Arrange items in a row */
+  justify-content: space-around; /* Distribute items evenly */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Add spacing between items */
+  margin-top: 5px;
+}
+
+.activity-item {
+  display: flex;
+  flex-direction: column; /* Stack image and label vertically */
+  align-items: center; /* Center align image and label */
+  text-align: center; /* Center align text */
+}
+
+.activity-img-container {
+  border-radius: 12px;
+  border: 5px solid #ffffff;
+  overflow: hidden; 
+}
+
+.activity-img1 {
+  width: 146px;
+  height: 86px;
+  object-fit: cover; 
+}
+
+.activity-label {
+  margin-top: 10px; 
+  font-size: 14px; 
+  font-weight: bold; 
+  color: #333; 
+}
+
+.progress-bar-container {
+  width: 100%; /* Full width of the container */
+  margin-top: 5px; /* Add spacing above the progress bar */
+  padding-bottom: 20px; /* Add spacing below the progress bar */
+  display: flex;
+  justify-content: center; /* Center the progress bar horizontally */
+}
+
+.progress-bar {
+  width: 94%; /* Adjust the width of the progress bar */
+  height: 10px; /* Height of the progress bar */
+  background: #ffffff; /* Light gray background for the bar */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Ensure the fill stays inside the bar */
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.progress-fill {
+  height: 100%; /* Fill the full height of the bar */
+  background: #9D587E; /* Progress bar color */
+  border-radius: 10px 10px; /* Rounded corners on the left */
+  transition: width 0.3s ease-in-out; /* Smooth transition for progress changes */
+}
+
+.parents-containers {
+  border-radius: 15px;
+  padding: 5px;
+    max-height: 100%;
+}
+
+.parents-header {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.parent-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding:16px 18px;
+  max-width: 94%;
+  max-height: 100%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.parent-card:last-child {
+  margin-bottom: 0;
+}
+
+.parent-content {
+  flex: 1;
+}
+
+.parent-text {
+  font-size: 14px;
+  color: #333333;
+  margin: 0 0 5px 0;
+}
+
+.parent-date {
+  font-size: 12px;
+  color: #999999;
+  margin: 0;
+}
+
+.parents-activity{
+  max-width: 100%;
+  max-height: 100%; 
+  background:#F4E4ED;
+  ;
+  box-shadow: 
+  inset 0px 7px 1px 0px #D497B9,   
+  inset -3px 0px 1px 0px #D497B9; 
+
+  border-radius: 15px; 
+  padding-bottom: 15px;
+}
+
+.parent-spiral{
+  margin-left: 120px;
+  margin-top: -15px;
+}
+/* .footer {
+    background-color: #ffffff;
+    max-width: 100%;
+    max-height: 100%;
+    color: #040404;
+} */
+
+.footer {
+  margin-top: -80px;
+  background-color: #ffffff; /* Footer background color */
+  color: #858585; /* Footer text color */
+  text-align: center; /* Center the text */
+  padding: 20px 0; /* Add padding for spacing */
+  width: 100%; /* Ensure it spans the full width of col-9 */
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+  font-size: 18px; /* Adjust font size */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  font-weight: 500;
+}
+.footer span{
+  color: #E14147;
+}
 
 
 
+
+
+
+
+/*mobile view css*/
+.background-pattern{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('./assets/mobile\ background\ pattern.png');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+.mobile-view{
+   margin: 0;
+   padding: 0;
+}
+
+.background-image-mobile{
+  position: absolute;
+  max-width: 100%;
+  width: 425px;
+  max-height: 100%;
+  padding: 0;
+  margin-left: -8px;
+  margin-top: -8px;
+  object-fit: cover;
+}
+
+.logo-mobile{
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+.mobile-student-details {
+  position: absolute;
+  background: linear-gradient(359.23deg, #BFBFE1 0.68%, #A689CF 99.36%);
+    box-shadow: 
+        0px 2.92px 14.58px 0px #0B0E2142, /* Outer shadow */
+        5.83px 7.29px 1.46px 0px #B7B3E2 inset, /* Inset shadow */
+        0px -2.92px 1.46px 0px #9F7CD8 inset; /* Inset shadow from the top */
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px 50px;
+  margin-left: 6px;
+  margin-top: -20px;
+}
+
+.mobile-student-img {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: 5px;
+  object-fit: cover;
+}
+
+.mobile-stars-img {
+  position: relative;
+  z-index: 1;
+  left: 40px;
+  width: 100px;
+  /* opacity: 0.3; */
+}
+
+.mobile-student-name {
+  margin: 15px 0 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.mobile-student-role {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+  opacity: 0.8;
+}
+
+.mobile-card {
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+}
+.mobile-profile-details{
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.mobile-detail-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.mobile-detail-label {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  padding-bottom: 5px;
+  margin-right: 30px;
+}
+
+.mobile-detail-value {
+  font-size: 14px;
+  color: #EEEDED;
+}
